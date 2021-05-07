@@ -1,0 +1,111 @@
+*, 
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+/* 400 - 700 Font Weights */
+
+/* Primary Colors */
+/* Dark Cyan: #19a2ae */
+/* Very dark desaturated blue: #2d3248 */
+/* Dark grayish blue: 	#6a6f81 */
+
+
+/*=======================================================
+ Base Styles
+ =======================================================*/
+body {
+	
+	height: 100vh;
+    font-size: 17px;
+	color: #2d3248;
+	background-color: #19a2ae;
+    font-family: 'Kumbh Sans', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+main {
+	width: 95%;
+	max-width: 350px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+svg {
+	width: 100%;
+	border-radius: 10px 10px 0 0;
+}
+
+img {
+	display: block;
+	margin: -3.3em auto 0;
+	border-radius: 50%;
+	border: 5px solid #fff;
+	position: relative;
+}
+
+h1 {
+	margin-top: 1.2em;
+	margin-bottom: -0.5em;
+}
+
+h1,
+h2 {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: -0.35em;
+}
+
+p {
+	font-size: 0.694rem;
+	color: #6a6f81;
+	text-align: center;
+	letter-spacing: 0.05em;
+}
+
+span {
+	font-weight: 400;
+	color: #6a6f81;
+}
+
+div {
+	width: 55px;
+}
+
+.header P {
+	font-size: 1rem;
+}
+
+.stats {
+	margin-top: 1.6em;
+	height: 100px;
+	border-top: 1px solid #e8e9ec;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-radius: 0 0 10px 10px;
+}
+
+.top {
+
+	margin-left: -800px;
+	margin-top: -700px;
+	
+}
+.bottom {
+	margin-top: 250px;
+	margin-left: 100px;
+}
+	.both {
+		position: fixed;
+		border: none;
+		z-index: -1;
+	}
